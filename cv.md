@@ -72,9 +72,9 @@ public function getSlides()
 ```
 
 ### My Projects
-[SDB web-studio site](https://sdb-studio.com/)
-[Budapest online store](https://budapesht.com.ua/)
-[Bestcollection online store](http://bestcollection.com.ua/)
+##### [SDB Web-Studio Site](https://sdb-studio.com/)
+##### [Budapest Online Store](https://budapesht.com.ua/)
+##### [Bestcollection Online Store](http://bestcollection.com.ua/)
 
 ### Education
 Oles Honchar Dnipro National University Faculty of Physics, Electronics and Computer Sciences
