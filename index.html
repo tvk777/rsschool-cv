@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML, CSS & Git Basics</title>
+</head>
+
+<body>
+    <main>
+        <div class="logo"><img src="https://sdb-studio.com/templates/yoo_helios/images/custom/logo_r.png"
+                alt="SDB studio logo" /></div>
+
+        <h1>Tatyana Klimenko </h1>
+
+        <section class="contact">
+            <h2>Contacts</h2>
+            <ul>
+                <li><span>City:</span>Dnipro, Ukraine</li>
+                <li><span>Email:</span>klimenko.tv7@gmail.com</li>
+                <li><span>Web-site:</span><a href="https://sdb-studio.com/">sdb-studio.com</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Summary</h2>
+            <p>Hi! I'm Tatyana. I have been working in web development for almost 10 years now. I really love to learn
+                new
+                technologies and new programming languages. Now I work as a web developer in the SDB web-studio.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="half-page">
+                <ul>
+                    <li>Web Technologies
+                        <ul>
+                            <li>Html5</li>
+                            <li>Css3</li>
+                        </ul>
+                    </li>
+                    <li>Programming Languages & Data Bases
+                        <ul>
+                            <li>PHP</li>
+                            <li>MySql</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </li>
+                    <li>Frameworks & Libraries
+                        <ul>
+                            <li>Yii2</li>
+                            <li>Jquery</li>
+                            <li>Bootstrap</li>
+                            <li>React</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="half-page">
+                <ul>
+                    <li>CMS
+                        <ul>
+                            <li>Joomla</li>
+                            <li>Wordpress</li>
+                            <li>PrestaShop</li>
+                            <li>Opencart</li>
+                        </ul>
+                    </li>
+                    <li>Version Control
+                        <ul>
+                            <li>Git</li>
+                        </ul>
+                    </li>
+                    <li>IDE
+                        <ul>
+                            <li>VS Code</li>
+                            <li>PhpStorm</li>
+                            <li>WebStorm</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Code samples</h2>
+            <div class="half-page">
+                <h3>React</h3>
+                <code>
+<pre>
+let mapStateToProps = state => dialogsPage: state.dialogsPage
+let mapDispatchToProps = (dispatch) => {
+ return {
+ sendMessage: () => { dispatch(sendMessageCreator()); },
+ updateNewMessageBody: (body) => { 
+  dispatch(updateNewMessageBodyCreator(body));}
+ }
+}
+export default compose(
+connect(mapStateToProps, mapDispatchToProps),
+withAuthRedirect
+)(Dialogs);
+</pre>
+                </code>
+            </div>
+            <div class="half-page">
+            <h3>PHP</h3>
+             <code>
+<pre class="code">
+public function getSlides()
+{
+ $slides = [];
+ if (count($this->images) > 0) {
+  foreach ($this->images as $i => $img) {
+   $slides[$i]['thumb'] = $img->thumb300x200Src;
+   $slides[$i]['big'] = $img->imgSrc;
+  }
+}
+return $slides;
+}
+             </code>
+            </div>
+        </section>
+        <section>
+            <h2>My Projects</h2>
+            <ul>
+                <li><a href="https://sdb-studio.com/">SDB Web-Studio Site</a></li>
+                <li><a href="https://budapesht.com.ua/">Budapest Online Store</a></li>
+                <li><a href="http://bestcollection.com.ua/">Bestcollection Online Store</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>Oles Honchar Dnipro National University Faculty of Physics, Electronics and Computer Sciences</p>
+        </section>
+        <section>
+            <h2>English</h2>
+            <p>Pre-intermediate</p>
+        </section>
+    </main>
+</body>
+
+</html>

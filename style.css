@@ -1,0 +1,59 @@
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+section {
+    clear:both;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    margin: 10px 0 5px 0;
+}
+h3 {
+    margin: 5px 0;
+}
+
+.logo {
+    margin: 10px;
+    text-align: center;
+}
+ ul li{
+     list-style: none;
+     font-weight: bold;
+ }
+
+ ul li li{
+    list-style: circle;
+    font-weight: normal;
+}
+code, h3 {
+    font-style: italic;
+    color: #666666;
+}
+a {
+    color: #f5450d;
+    text-decoration: underline;
+}
+p {
+    margin: 0;
+}
+.contact ul li{
+    list-style: none;
+    font-weight: normal;
+}
+.contact ul li span{
+    font-weight: bold;
+    padding-right: 5px;
+}
+.half-page {
+    width: 50%;
+    float: left;
+}
